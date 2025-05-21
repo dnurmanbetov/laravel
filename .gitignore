@@ -1,0 +1,9 @@
+/vendor
+.env
+
+#osx folder information
+.DS_Store
+/.fleet
+/.idea
+/.vscode
+Makefile

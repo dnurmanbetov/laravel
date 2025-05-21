@@ -1,0 +1,22 @@
+{
+  "name": "dnurmanbetov/laravel",
+  "description": "Base package for Laravel projects",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "dnurmanbetov\\laravel\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^10.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "dnurmanbetov\\laravel\\laravelServiceProvider"
+      ]
+    }
+  }
+}
